@@ -14,6 +14,15 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
+// Configuração da ordem personalizada (Pastas e arquivos misturados por ordem alfabética/numérica)
+const explorerConfiguration = {
+  sortFn: (a, b) => {
+    const nameA = a.displayName.toLowerCase()
+    const nameB = b.displayName.toLowerCase()
+    return nameA.localeCompare(nameB, undefined, { numeric: true, sensitivity: 'base' })
+  },
+}
+
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
@@ -38,7 +47,8 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    // AQUI ESTÁ A MUDANÇA: Explorer com configuração de ordem
+    Component.Explorer(explorerConfiguration),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +72,8 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    // AQUI TAMBÉM: Explorer com configuração de ordem
+    Component.Explorer(explorerConfiguration),
   ],
   right: [],
 }
