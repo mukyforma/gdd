@@ -1,6 +1,7 @@
 ---
 title: Anatomia da Pedra
 ---
+A Pedra é a unidade fundamental do jogo e o foco de todos os sistemas de modificação. Sua utilidade é tripla: ela atua como **Arma** no Teste de Poder, como **Motor de Eficiência** quando engastada nos dispositivos da oficina, e como **Modificador de Mapa** no Tabuleiro de Farming, alterando a densidade e a quantidade de cristais.
 ## Componentes Fundamentais
 
 - **Tipo de Pedra (O Chassi):** É a matéria-prima. Define o "corpo" da pedra e o que ela faz de melhor por natureza.
