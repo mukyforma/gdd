@@ -70,9 +70,7 @@ Pedra que teve sua energia esgotada mas venceu/sobreviveu ao Teste de Poder. O b
 
 Pedra que falhou ao Teste de Poder.
 
-- **Penalidades:**
-    - Perde parte considerável do **Potencial de Forja**.
-    - Perda imediata de uma parcela considerável de FP e risco de **rebaixamento de Tier** (Downgrade) em afixos aleatórios.
+- **Penalidades:** Perda imediata de uma parcela considerável de FP e risco de **rebaixamento de Tier** (Downgrade) em afixos aleatórios.
 
 - **Utilidade:**
     - Pode ser usada no **Recombinador**, mas introduz instabilidade no processo.
