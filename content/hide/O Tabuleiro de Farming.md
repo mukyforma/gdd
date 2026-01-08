@@ -1,3 +1,0 @@
----
-title: O Tabuleiro de Farming
----
